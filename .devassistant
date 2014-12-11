@@ -1,0 +1,22 @@
+dependencies:
+- rpm:
+  - perl
+- rpm:
+  - coreutils
+  - perl(Dancer)
+  - perl(ExtUtils::MakeMaker)
+  - perl(strict)
+  - perl(Test::More)
+  - perl(YAML)
+  - perl(warnings)
+  - perl(Dancer::Test)
+- rpm:
+  - perl(Plack::Handler::FCGI)
+devassistant_version: 0.9.3
+original_kwargs:
+  fastcgi: true
+  github: !!python/unicode 'mtinberg'
+  name: !!python/unicode '/home/mtinberg/Source/MyTestDancerApp'
+project_type:
+- perl
+- dancer
